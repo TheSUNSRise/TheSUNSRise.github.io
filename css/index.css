@@ -29,7 +29,7 @@
   width: 25%;
   font-size: 14px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   .header_nav {
     display: flex;
     flex-direction: column;
