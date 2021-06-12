@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "萍方-港","Arial";
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+}
+ul,ol,li{
+  list-style: none;
+}
+h1,h3{
+  font-size: 14px;
+  font-weight: normal;
+}
+//三角形
+.s{
+  position: relative;
+}
+.s::before{
+  content: "";
+  width: 0;
+  height: 0;
+  border: 4px solid transparent;
+	border-top-color: black;
+	border-bottom: none;
+	border-left-color: transparent;
+	border-right-color: transparent;
+  transform:rotate(135deg);
+  position: absolute;
+  top: -1px;
+  left: -4px;
+}
